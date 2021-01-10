@@ -1,0 +1,14 @@
+---
+  - name: "My first play"
+    hosts: localhost
+    tasks:
+      - name: "test reachability"
+        ping:
+    
+      - name: "install apache"
+        apt: name=apache2 update_cache=yes state=latest
+
+      - name: "find"
+        find: 
+          path: ansible/
+          file_type: file
