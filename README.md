@@ -8,5 +8,5 @@ Otherwise, run `./install.sh` to install ansible locally, to verfiy the installt
 
 ## Some Ansible Commands :  
 
-- To run the a plybook aginast your localhost, ` ansible-playbook play1.yaml ` > this will use ping module to check the reachability of your machine.  
+- To run the a plybook aginast your localhost, run ` ansible-playbook play1.yaml `, this command will use ping module to check the reachability of your machine.  
 - To check the reachability using ad hoc command, run ` ansible localhost -m ping `.  
